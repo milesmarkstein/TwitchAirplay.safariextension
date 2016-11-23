@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Yannick Weiss</string>
+	<key>Builder Version</key>
+	<string>12602.3.10</string>
+	<key>CFBundleDisplayName</key>
+	<string>TwitchAirplay</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.yannickweiss.twitchairplay</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>End</key>
+			<array>
+				<string>airplay.js</string>
+			</array>
+		</dict>
+	</dict>
+	<key>Description</key>
+	<string>Display Airplay button on twitch.tv</string>
+	<key>DeveloperIdentifier</key>
+	<string>NDJHDNKXD6</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Allowed Domains</key>
+			<array>
+				<string>*.twitch.tv</string>
+			</array>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>Some</string>
+		</dict>
+	</dict>
+	<key>Website</key>
+	<string>https://yannickweiss.com</string>
+</dict>
+</plist>
